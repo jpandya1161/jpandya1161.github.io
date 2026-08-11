@@ -298,18 +298,33 @@
     if (!timelineList || !data.positions) return;
 
     timelineList.innerHTML = data.positions
-      .map(
-        (pos) => `
+      .map((pos) => {
+        // A relative url() inside a custom property resolves against the
+        // stylesheet, not the document, so absolutise it against the page.
+        const logoUrl = pos.logo ? new URL(pos.logo, document.baseURI).href : '';
+        const logoHtml = logoUrl
+          ? `<span class="company-logo" style="--company-logo:url('${escapeHtml(logoUrl)}')" role="img" aria-label="${escapeHtml(pos.company)} logo"></span>`
+          : '';
+        const locationHtml = (pos.location || '').trim()
+          ? `<p class="timeline-location"><i class="fas fa-map-marker-alt"></i> ${escapeHtml(pos.location)}</p>`
+          : '';
+        return `
       <div class="timeline-item-flat">
         <div class="timeline-dot"></div>
         <div class="timeline-content-flat">
-          <h4 class="timeline-title">${escapeHtml(pos.title)} @ ${escapeHtml(pos.company)}</h4>
+          <div class="timeline-heading">
+            ${logoHtml}
+            <div class="timeline-heading-text">
+              <h4 class="timeline-title">${escapeHtml(pos.title)}</h4>
+              <p class="timeline-company">${escapeHtml(pos.company)}</p>
+            </div>
+          </div>
           <p class="timeline-date">${escapeHtml(pos.startDate)} - ${escapeHtml(pos.endDate || 'Present')}</p>
           <p class="timeline-description">${escapeHtml(pos.description)}</p>
-          <p class="timeline-location"><i class="fas fa-map-marker-alt"></i> ${escapeHtml(pos.location || '')}</p>
+          ${locationHtml}
         </div>
-      </div>`
-      )
+      </div>`;
+      })
       .join('');
   }
 
@@ -366,14 +381,22 @@
         const techHtml = (proj.technologies || [])
           .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
           .join('');
+        const thumbHtml = proj.image
+          ? `<div class="project-thumb">
+               <img src="${escapeHtml(proj.image)}" alt="${escapeHtml(proj.name)} cover illustration" loading="lazy" decoding="async" width="960" height="640">
+             </div>`
+          : '';
         return `
         <div class="project-card">
-          <div class="project-header">
-            <h3 class="project-title">${escapeHtml(proj.name)}</h3>
-            <div class="project-links">${linksHtml.join('')}</div>
+          ${thumbHtml}
+          <div class="project-body">
+            <div class="project-header">
+              <h3 class="project-title">${escapeHtml(proj.name)}</h3>
+              <div class="project-links">${linksHtml.join('')}</div>
+            </div>
+            <p class="project-desc">${escapeHtml(proj.description)}</p>
+            <div class="tech-tags">${techHtml}</div>
           </div>
-          <p class="project-desc">${escapeHtml(proj.description)}</p>
-          <div class="tech-tags">${techHtml}</div>
         </div>`;
       })
       .join('');

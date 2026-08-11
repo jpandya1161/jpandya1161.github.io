@@ -2,251 +2,182 @@
   "heading": "Projects",
   "projects": [
     {
-      "name": "AI Multilingual Tutor-Bot with NLP",
-      "description": "Developed a multilingual AI tutor using GPT, MarianMT, DistilBERT, RoBERTa, and Python, enabling translation, autocomplete, sentiment, and emotion analysis.\nBenchmarked NLP performance on 3,000 French sentences using SequenceMatcher, achieving an 87.29% similarity score while optimizing inference efficiency.",
+      "name": "specsage",
+      "description": "Agentic RAG over the IETF RFC archive. Answers stream in with inline citations that resolve to exact RFC sections, and a committed, re-runnable evaluation harness measures per-stage retrieval, citation validity, groundedness, and refusal accuracy on out-of-scope questions rather than asserting them.",
+      "technologies": [
+        "Python",
+        "RAG",
+        "LLM",
+        "Evaluation",
+        "Docker"
+      ],
+      "image": "assets/img/projects/specsage.webp",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/jpandya1161/specsage"
+    },
+    {
+      "name": "AI-Augmented SOC",
+      "description": "Research-grade AI security operations center combining intrusion-detection models trained on CICIDS2017, local LLM alert triage, retrieval over security knowledge, Wazuh integration, incident correlation, attack-campaign simulation, and a prototype response planner.",
+      "technologies": [
+        "Python",
+        "Machine Learning",
+        "Zeek",
+        "Wazuh",
+        "LLM",
+        "Docker"
+      ],
+      "image": "assets/img/projects/ai-soc.webp",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/jpandya1161/ai_soc"
+    },
+    {
+      "name": "driftguard",
+      "description": "An end-to-end ML lifecycle that watches itself: train, track and register with MLflow, serve through FastAPI, detect drift, auto-retrain. Demonstrated on a real distribution shift and evaluated on held-out data, where retraining cut held-out MAE from 87.3 to 48.4.",
+      "technologies": [
+        "Python",
+        "MLflow",
+        "FastAPI",
+        "Docker"
+      ],
+      "image": "assets/img/projects/driftguard.webp",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/jpandya1161/driftguard"
+    },
+    {
+      "name": "ContextForge",
+      "description": "A self-hostable documentation answer bot you can point at your own markdown, PDFs, or a URL. Every answer is grounded in and cites its sources, and the service explicitly abstains when retrieval confidence is too low to trust the answer.",
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "RAG",
+        "Docker"
+      ],
+      "image": "assets/img/projects/contextforge.webp",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/jpandya1161/contextforge"
+    },
+    {
+      "name": "sentinel-triage",
+      "description": "Alert triage that cuts mean-time-to-triage without teaching the SOC to cry wolf. Endpoint and auth events are correlated into candidate incidents, then matched against Sigma detection rules mapped to MITRE ATT&CK so analysts see one real incident instead of thousands of low-fidelity alerts.",
+      "technologies": [
+        "Python",
+        "Sigma",
+        "MITRE ATT&CK",
+        "Docker"
+      ],
+      "image": "assets/img/projects/sentinel-triage.webp",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/jpandya1161/sentinel-triage"
+    },
+    {
+      "name": "agentops-sentinel",
+      "description": "A supervisor and self-critique agent framework for support-ticket triage. A planner routes work to specialized tool-using sub-agents, a critique loop retries or escalates failed steps, and every decision is traced end to end under a hard cost budget so runs stay reliable and observable.",
+      "technologies": [
+        "Python",
+        "LLM Agents",
+        "Tracing",
+        "Docker"
+      ],
+      "image": "assets/img/projects/agentops-sentinel.webp",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/jpandya1161/agentops-sentinel"
+    },
+    {
+      "name": "driftguard-llm",
+      "description": "A RAG service with a monitoring plane bolted onto its hot path: every query embedding feeds a statistical drift detector and a rolling sample of responses is scored, so silent retrieval and answer-quality regressions surface with a timestamp instead of accumulating until a customer complains.",
+      "technologies": [
+        "Python",
+        "RAG",
+        "Embeddings",
+        "Drift Detection",
+        "Docker"
+      ],
+      "image": "assets/img/projects/driftguard-llm.webp",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/jpandya1161/driftguard-llm"
+    },
+    {
+      "name": "advanced-rag-llm-app",
+      "description": "A self-contained advanced AI application combining retrieval-augmented generation, vector search, document ingestion, prompt orchestration, and LLM APIs, built to answer questions from a controlled knowledge base while exposing the engineering tradeoffs behind retrieval quality, latency, grounding, and evaluation.",
+      "technologies": [
+        "Python",
+        "RAG",
+        "Vector Search",
+        "LLM APIs",
+        "Docker"
+      ],
+      "image": "assets/img/projects/advanced-rag-llm-app.webp",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/jpandya1161/advanced-rag-llm-app"
+    },
+    {
+      "name": "MLOps Workflow",
+      "description": "A full-stack MLOps deployment on Google Cloud: BigQuery as the data layer, Terraform-provisioned infrastructure, containerized training and serving, and GitHub Actions CI/CD wiring the pipeline from raw data through to a deployed model.",
+      "technologies": [
+        "Python",
+        "Terraform",
+        "GCP",
+        "BigQuery",
+        "Docker",
+        "GitHub Actions"
+      ],
+      "image": "assets/img/projects/mlops-app.webp",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/jpandya1161/mlops-app"
+    },
+    {
+      "name": "modelcard",
+      "description": "Turns a trained scikit-learn estimator into a deterministic Markdown model card — intended use, training data, metrics, limitations, and feature importances — derived from the artifact itself so governance documentation is regenerated in one command and is byte-identical given identical inputs, safe to diff in CI.",
+      "technologies": [
+        "Python",
+        "scikit-learn",
+        "MLOps"
+      ],
+      "image": "assets/img/projects/modelcard.webp",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/jpandya1161/modelcard"
+    },
+    {
+      "name": "AI Multilingual Tutor-Bot",
+      "description": "A multilingual AI language tutor built with GPT, MarianMT, DistilBERT and RoBERTa, supporting translation, autocomplete, sentiment and emotion analysis. NLP performance was benchmarked on 3,000 French sentences using SequenceMatcher, reaching an 87.29% similarity score while optimizing inference efficiency.",
       "technologies": [
         "GPT",
         "MarianMT",
         "DistilBERT",
         "RoBERTa",
-        "Python",
-        "SequenceMatcher"
-      ],
-      "liveUrl": "",
-      "githubUrl": ""
-    },
-    {
-      "name": "ESP32 Biometric Login System",
-      "description": "Built a biometric authentication platform using ESP32, Flask, JWT, Socket.IO, and Python, enabling secure real-time communication between embedded hardware and a web application.\nImplemented JWT-based session management with automated token cleanup and multi-step verification, strengthening authentication security and improving application reliability.",
-      "technologies": [
-        "ESP32",
-        "Flask",
-        "JWT",
-        "Socket.IO",
         "Python"
       ],
+      "image": "assets/img/projects/tutor-bot.webp",
       "liveUrl": "",
-      "githubUrl": ""
-    },
-    {
-      "name": "modelcard",
-      "description": "Personal project for exploring modern development practices",
-      "technologies": [
-        "Python"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/modelcard",
-      "githubUrl": "https://github.com/jpandya1161/modelcard"
-    },
-    {
-      "name": "specsage",
-      "description": "Comprehensive project exploring software design patterns",
-      "technologies": [
-        "Python",
-        "HTML",
-        "JavaScript",
-        "CSS",
-        "Makefile",
-        "Dockerfile"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/specsage",
-      "githubUrl": "https://github.com/jpandya1161/specsage"
-    },
-    {
-      "name": "advanced-rag-llm-app",
-      "description": "Full-featured application built as a learning exercise",
-      "technologies": [
-        "Python",
-        "CSS",
-        "JavaScript",
-        "HTML",
-        "Dockerfile",
-        "Makefile"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/advanced-rag-llm-app",
-      "githubUrl": "https://github.com/jpandya1161/advanced-rag-llm-app"
-    },
-    {
-      "name": "ai_soc",
-      "description": "Portfolio project showcasing development capabilities",
-      "technologies": [
-        "Python",
-        "HTML",
-        "Shell",
-        "PowerShell",
-        "Dockerfile",
-        "Zeek",
-        "Batchfile"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/ai_soc",
-      "githubUrl": "https://github.com/jpandya1161/ai_soc"
-    },
-    {
-      "name": "driftguard",
-      "description": "Personal development project using industry best practices",
-      "technologies": [
-        "Python",
-        "Dockerfile"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/driftguard",
-      "githubUrl": "https://github.com/jpandya1161/driftguard"
-    },
-    {
-      "name": "mlops-app",
-      "description": "End-to-end implementation demonstrating technical skills",
-      "technologies": [
-        "HCL",
-        "Python",
-        "Jupyter Notebook",
-        "Dockerfile",
-        "Shell"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/mlops-app",
-      "githubUrl": "https://github.com/jpandya1161/mlops-app"
-    },
-    {
-      "name": "sentinel-triage",
-      "description": "Educational project for mastering software architecture",
-      "technologies": [
-        "Python",
-        "Dockerfile"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/sentinel-triage",
-      "githubUrl": "https://github.com/jpandya1161/sentinel-triage"
-    },
-    {
-      "name": "contextforge",
-      "description": "Educational project for mastering software architecture",
-      "technologies": [
-        "TypeScript",
-        "JavaScript",
-        "Dockerfile",
-        "CSS"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/contextforge",
-      "githubUrl": "https://github.com/jpandya1161/contextforge"
-    },
-    {
-      "name": "agentops-sentinel",
-      "description": "Practice application demonstrating full-stack development skills",
-      "technologies": [
-        "Python",
-        "HTML",
-        "Dockerfile"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/agentops-sentinel",
-      "githubUrl": "https://github.com/jpandya1161/agentops-sentinel"
-    },
-    {
-      "name": "driftguard-llm",
-      "description": "Full-featured application built as a learning exercise",
-      "technologies": [
-        "Python",
-        "Dockerfile"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/driftguard-llm",
-      "githubUrl": "https://github.com/jpandya1161/driftguard-llm"
-    },
-    {
-      "name": "Wells-Fargo-SE-JPA-project",
-      "description": "A Java-based backend service utilizing Spring Data JPA and Hibernate to model complex financial relationships. This project implements a hierarchical data structure—Advisors, Clients, Portfolios, and Securities—ensuring data integrity through relational mapping, custom constraints, and modern Java Time APIs.",
-      "technologies": [
-        "Java"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/Wells-Fargo-SE-JPA-project",
-      "githubUrl": "https://github.com/jpandya1161/Wells-Fargo-SE-JPA-project"
-    },
-    {
-      "name": "esp32-biometric-login",
-      "description": "A secure facial recognition login system using ESP32-CAM and Edge Impulse ML model, with real-time authentication via Flask, Socket.IO, and JWT-based token verification.",
-      "technologies": [
-        "C",
-        "C++",
-        "Assembly",
-        "CMake",
-        "CSS",
-        "Python",
-        "HTML",
-        "JavaScript",
-        "Shell"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/esp32-biometric-login",
-      "githubUrl": "https://github.com/jpandya1161/esp32-biometric-login"
-    },
-    {
-      "name": "Tutor-Bot",
-      "description": "Making a language tutoring chatbot.",
-      "technologies": [
-        "Jupyter Notebook",
-        "Python",
-        "JavaScript",
-        "CSS",
-        "HTML"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/Tutor-Bot",
       "githubUrl": "https://github.com/jpandya1161/Tutor-Bot"
     },
     {
-      "name": "Text-Classification",
-      "description": "Here we are given a Text dataset which contains Ham and Spam emails. Now we must make different classifier models to evaluate that on getting a new dataset, machine should be able to decide if that email is ham or spam. Also, we are comparing evaluation metrics for different models for the same problem, given different new datasets.",
+      "name": "ESP32 Biometric Login System",
+      "description": "A secure facial-recognition login system pairing an ESP32-CAM running an Edge Impulse model with a Flask backend, authenticating in real time over Socket.IO. JWT-based session management with automated token cleanup and multi-step verification strengthens authentication between the embedded hardware and the web application.",
       "technologies": [
-        "Jupyter Notebook"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/Text-Classification",
-      "githubUrl": "https://github.com/jpandya1161/Text-Classification"
-    },
-    {
-      "name": "Clause-Resolution-Principle",
-      "description": "Theorem prover for a clause logic using the resolution principle.",
-      "technologies": [
+        "ESP32",
+        "C++",
+        "Edge Impulse",
+        "Flask",
+        "Socket.IO",
+        "JWT",
         "Python"
       ],
-      "liveUrl": "https://github.com/jpandya1161/Clause-Resolution-Principle",
-      "githubUrl": "https://github.com/jpandya1161/Clause-Resolution-Principle"
+      "image": "assets/img/projects/esp32-biometric-login.webp",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/jpandya1161/esp32-biometric-login"
     },
     {
-      "name": "Virtual-Assistent",
-      "description": "Users can ask their assistants questions, control home automation devices and media playback via voice, and manage other basic tasks such as email, to-do lists, and calendars with verbal commands.",
+      "name": "Wells Fargo JPA Financial Model",
+      "description": "A Java backend service using Spring Data JPA and Hibernate to model complex financial relationships. It implements a hierarchical data structure of advisors, clients, portfolios, and securities, holding data integrity through relational mapping, custom constraints, and modern Java Time APIs.",
       "technologies": [
-        "Python"
+        "Java",
+        "Spring Data JPA",
+        "Hibernate"
       ],
-      "liveUrl": "https://github.com/jpandya1161/Virtual-Assistent",
-      "githubUrl": "https://github.com/jpandya1161/Virtual-Assistent"
-    },
-    {
-      "name": "OMR-checker-Application",
-      "description": "The main objective of the app was to incorporate the features that enable a teacher to check student OMR sheets. This app aimed to provide the admin with the functionality of login, signup, profile, creating a test and checking the student answers according to the correct answers.",
-      "technologies": [
-        "Java"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/OMR-checker-Application",
-      "githubUrl": "https://github.com/jpandya1161/OMR-checker-Application"
-    },
-    {
-      "name": "Multi-DataStructure-Implementation",
-      "description": "Here I implement the multi data structure application. ",
-      "technologies": [
-        "Java"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/Multi-DataStructure-Implementation",
-      "githubUrl": "https://github.com/jpandya1161/Multi-DataStructure-Implementation"
-    },
-    {
-      "name": "Mood-Bot",
-      "description": "This project made with Rasa which is an open-source bot-building framework.",
-      "technologies": [
-        "Python"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/Mood-Bot",
-      "githubUrl": "https://github.com/jpandya1161/Mood-Bot"
-    },
-    {
-      "name": "USA-Bot",
-      "description": "This project is made to observe the general use of BotPress application.",
-      "technologies": [
-        "JavaScript"
-      ],
-      "liveUrl": "https://github.com/jpandya1161/USA-Bot",
-      "githubUrl": "https://github.com/jpandya1161/USA-Bot"
+      "image": "assets/img/projects/wells-fargo-jpa.webp",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/jpandya1161/Wells-Fargo-SE-JPA-project"
     }
   ]
 }
