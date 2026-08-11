@@ -1,0 +1,122 @@
+{
+  "greeting": "Hi there!",
+  "name": "JAY PANDYA",
+  "description": "Based in Texas, USA. AI/ML Engineer with 4+ years of experience developing enterprise AI solutions, scalable machine learning systems, and modern data platforms for large-scale business environments.",
+  "tagline": "AI/ML Engineer | Data Engineer",
+  "avatarUrl": "",
+  "socialLinks": [
+    {
+      "icon": "fab fa-github",
+      "url": "https://github.com/jpandya1161",
+      "label": "GitHub"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "url": "mailto:jaypandya1161@gmail.com",
+      "label": "Email"
+    }
+  ],
+  "techBadges": [
+    {
+      "icon": "fab fa-python",
+      "label": "Python"
+    },
+    {
+      "icon": "fab fa-java",
+      "label": "Java"
+    },
+    {
+      "icon": "fas fa-database",
+      "label": "SQL"
+    },
+    {
+      "icon": "fab fa-js",
+      "label": "JavaScript"
+    },
+    {
+      "icon": "fab fa-python",
+      "label": "FastAPI"
+    },
+    {
+      "icon": "fab fa-python",
+      "label": "Flask"
+    },
+    {
+      "icon": "fas fa-server",
+      "label": "Express.js"
+    },
+    {
+      "icon": "fas fa-server",
+      "label": "Next.js"
+    }
+  ],
+  "terminalCommands": {
+    "about": {
+      "title": "About Me",
+      "content": "AI/ML Engineer | Data Engineer with 2+ years of experience building scalable web applications.",
+      "highlights": [
+        "Working with Python",
+        "Working with Java",
+        "Working with SQL"
+      ]
+    },
+    "skills": [
+      "Python",
+      "Java",
+      "SQL",
+      "JavaScript",
+      "FastAPI",
+      "Flask",
+      "Express.js",
+      "Next.js",
+      "PySpark",
+      "Apache Kafka",
+      "Apache Hadoop",
+      "Apache Hive",
+      "Neo4j",
+      "PostgreSQL",
+      "MongoDB",
+      "Cassandra"
+    ],
+    "experience": [
+      {
+        "company": "Cisco Systems, USA",
+        "title": "AI/ML Engineer",
+        "period": "Feb 2026 - Present",
+        "location": ""
+      },
+      {
+        "company": "Hexaware Technologies, India",
+        "title": "Data Engineer - AI/ML Systems",
+        "period": "Jul 2021 - Dec 2023",
+        "location": ""
+      }
+    ],
+    "education": [
+      {
+        "degree": "Master of Computer Science",
+        "institution": "University of Texas at Dallas, TX, USA",
+        "period": "Jan 2024 - Dec 2025"
+      },
+      {
+        "degree": "Bachelor of Technology (B.Tech)",
+        "institution": "Charotar University of Science and Technology, India",
+        "period": "Jun 2019 - May 2023"
+      }
+    ],
+    "contact": {
+      "email": "jaypandya1161@gmail.com",
+      "website": "",
+      "github": "github.com/jpandya1161",
+      "linkedin": ""
+    }
+  },
+  "terminalLines": [
+    "$ whoami",
+    "JAY PANDYA",
+    "$ cat role.txt",
+    "AI/ML Engineer | Data Engineer",
+    "$ ls skills/",
+    "Python  Java  SQL  JavaScript  FastAPI"
+  ]
+}

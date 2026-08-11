@@ -1,0 +1,20 @@
+{
+  "heading": "GET IN TOUCH",
+  "subheading": "Let's build something amazing together",
+  "links": [
+    {
+      "icon": "fab fa-github",
+      "label": "GitHub",
+      "url": "https://github.com/jpandya1161",
+      "color": "#ffd93d"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "label": "Email",
+      "url": "mailto:jaypandya1161@gmail.com",
+      "color": "#ff6b9d"
+    }
+  ],
+  "email": "jaypandya1161@gmail.com",
+  "availability": "Open to opportunities"
+}

@@ -1,0 +1,44 @@
+{
+  "heading": "ABOUT",
+  "paragraphs": [
+    {
+      "text": "AI/ML Engineer with 4+ years of experience developing enterprise AI solutions, scalable machine learning systems, and modern data platforms for large-scale business environments. Specialized in Generative AI, LLMs, RAG architectures, NLP, and distributed data processing using Python, PySpark, AWS, Kafka, and Hugging Face Transformers. Recognized for building secure, high-performance AI applications that improve operational efficiency, strengthen intelligent automation, and transform complex data into actionable business insights.",
+      "highlights": []
+    },
+    {
+      "text": "Experienced ai/ml engineer | data engineer with {yearsExp} of hands-on experience across {industries}.",
+      "highlights": [
+        {
+          "text": "2+ years",
+          "color": "yellow",
+          "key": "yearsExp"
+        },
+        {
+          "text": "healthcare, security, data analytics",
+          "color": "pink",
+          "key": "industries"
+        }
+      ]
+    },
+    {
+      "text": "I bring a unique blend of {blend1}, {blend2}, and a genuine enthusiasm for {blend3}.",
+      "highlights": [
+        {
+          "text": "technical expertise",
+          "color": "yellow",
+          "key": "blend1"
+        },
+        {
+          "text": "collaborative leadership",
+          "color": "green",
+          "key": "blend2"
+        },
+        {
+          "text": "building impactful solutions",
+          "color": "cyan",
+          "key": "blend3"
+        }
+      ]
+    }
+  ]
+}

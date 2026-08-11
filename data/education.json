@@ -1,0 +1,23 @@
+{
+  "heading": "EDUCATION",
+  "entries": [
+    {
+      "degree": "Master of Computer Science",
+      "institution": "University of Texas at Dallas, TX, USA",
+      "startDate": "2024",
+      "endDate": "2025",
+      "gpa": "",
+      "honors": []
+    },
+    {
+      "degree": "Bachelor of Technology (B.Tech)",
+      "institution": "Charotar University of Science and Technology, India",
+      "startDate": "2019",
+      "endDate": "2023",
+      "gpa": "",
+      "honors": []
+    }
+  ],
+  "certifications": [],
+  "languages": []
+}

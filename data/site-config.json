@@ -1,0 +1,32 @@
+{
+  "siteName": "JAY PANDYA | AI/ML Engineer | Data Engineer",
+  "theme": "light",
+  "loaderInitials": [
+    "J",
+    "P"
+  ],
+  "metaDescription": "JAY PANDYA — AI/ML Engineer | Data Engineer. Portfolio showcasing professional experience, skills, and projects.",
+  "metaKeywords": "JAY PANDYA, AI/ML Engineer | Data Engineer, Portfolio",
+  "progressCheckpoints": [
+    {
+      "id": "hero",
+      "label": "Home"
+    },
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "experience",
+      "label": "Journey"
+    },
+    {
+      "id": "skills",
+      "label": "Skills"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
+  ]
+}

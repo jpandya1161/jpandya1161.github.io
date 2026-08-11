@@ -1,0 +1,201 @@
+{
+  "heading": "SKILLS",
+  "categories": [
+    {
+      "name": "Languages",
+      "icon": "fas fa-code",
+      "items": [
+        {
+          "name": "Python",
+          "icon": "fab fa-python"
+        },
+        {
+          "name": "Java",
+          "icon": "fab fa-java"
+        },
+        {
+          "name": "SQL",
+          "icon": "fas fa-database"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "fab fa-js"
+        }
+      ]
+    },
+    {
+      "name": "Frameworks & Libraries",
+      "icon": "fas fa-layer-group",
+      "items": [
+        {
+          "name": "FastAPI",
+          "icon": "fab fa-python"
+        },
+        {
+          "name": "Flask",
+          "icon": "fab fa-python"
+        },
+        {
+          "name": "Express.js",
+          "icon": "fas fa-server"
+        },
+        {
+          "name": "Next.js",
+          "icon": "fas fa-server"
+        },
+        {
+          "name": "PySpark",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Apache Kafka",
+          "icon": "fas fa-stream"
+        },
+        {
+          "name": "Apache Hadoop",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Apache Hive",
+          "icon": "fas fa-microchip"
+        }
+      ]
+    },
+    {
+      "name": "Tools & Platforms",
+      "icon": "fas fa-tools",
+      "items": [
+        {
+          "name": "Neo4j",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "fas fa-database"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "fas fa-leaf"
+        },
+        {
+          "name": "Cassandra",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Firebase",
+          "icon": "fas fa-fire"
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Git",
+          "icon": "fab fa-git-alt"
+        },
+        {
+          "name": "CI/CD",
+          "icon": "fas fa-sync-alt"
+        }
+      ]
+    },
+    {
+      "name": "Technical Skills",
+      "icon": "fas fa-cogs",
+      "items": [
+        {
+          "name": "Generative AI",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Large Language Models (LLMs)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Retrieval-Augmented Generation (RAG)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Natural Language Processing (NLP)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "BERT",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Hugging Face Transformers",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Prompt Engineering",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Model Fine-Tuning",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Model Evaluation",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "AI Model Optimization",
+          "icon": "fas fa-robot"
+        },
+        {
+          "name": "ETL Pipelines",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Data Processing",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Data Integration",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Data Validation",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Model Deployment",
+          "icon": "fas fa-circle"
+        },
+        {
+          "name": "Model Versioning",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Inference Optimization",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Agile (Scrum)",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Analytical Problem-Solving",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Cross-Functional Collaboration",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Stakeholder Communication",
+          "icon": "fas fa-chart-line"
+        },
+        {
+          "name": "Technical Documentation",
+          "icon": "fas fa-microchip"
+        },
+        {
+          "name": "Continuous Learning",
+          "icon": "fas fa-chart-line"
+        }
+      ]
+    }
+  ]
+}

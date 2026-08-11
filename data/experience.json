@@ -1,0 +1,66 @@
+{
+  "heading": "My Journey",
+  "positions": [
+    {
+      "title": "AI/ML Engineer",
+      "company": "Cisco Systems, USA",
+      "startDate": "Feb 2026",
+      "endDate": "Present",
+      "description": "Designed and deployed an enterprise Retrieval-Augmented Generation (RAG) platform using Python, FastAPI, Neo4j, and AWS, enabling secure, context-aware knowledge retrieval across internal engineering documentation and reducing information lookup time by 35%.\nEngineered a graph-based RAG platform using Neo4j, PySpark, Kafka, and AWS, enabling secure real-time enterprise knowledge retrieval while reducing query latency by 25% and unauthorized data exposure by 30%.\nIntegrated transformer-based anomaly detection models using Python, Hugging Face Transformers, BERT, and AWS, partnering with security engineering teams to improve AI-driven threat detection accuracy by 18%.\nAutomated production ML deployments using Git, AWS, and CI/CD, streamlining model versioning, validation, and release processes to shorten deployment cycles by 20% while improving release reliability.\nMonitored and optimized production AI model performance using inference logs, operational metrics, and user feedback, improving prediction consistency, model stability, and overall system reliability.",
+      "location": "",
+      "achievements": [
+        "Designed and deployed an enterprise Retrieval-Augmented Generation (RAG) platform using Python, FastAPI, Neo4j, and AWS, enabling secure, context-aware knowledge retrieval across internal engineering documentation and reducing information lookup time by 35%.",
+        "Engineered a graph-based RAG platform using Neo4j, PySpark, Kafka, and AWS, enabling secure real-time enterprise knowledge retrieval while reducing query latency by 25% and unauthorized data exposure by 30%.",
+        "Integrated transformer-based anomaly detection models using Python, Hugging Face Transformers, BERT, and AWS, partnering with security engineering teams to improve AI-driven threat detection accuracy by 18%.",
+        "Automated production ML deployments using Git, AWS, and CI/CD, streamlining model versioning, validation, and release processes to shorten deployment cycles by 20% while improving release reliability.",
+        "Monitored and optimized production AI model performance using inference logs, operational metrics, and user feedback, improving prediction consistency, model stability, and overall system reliability."
+      ],
+      "technologies": [
+        "Python",
+        "FastAPI",
+        "Neo4j",
+        "AWS",
+        "PySpark",
+        "Kafka",
+        "Hugging Face Transformers",
+        "BERT",
+        "Git",
+        "CI/CD"
+      ]
+    },
+    {
+      "title": "Data Engineer - AI/ML Systems",
+      "company": "Hexaware Technologies, India",
+      "startDate": "Jul 2021",
+      "endDate": "Dec 2023",
+      "description": "Designed scalable ETL pipelines using PySpark, Kafka, Hadoop, Hive, and AWS to process high-volume financial and healthcare datasets, increasing data throughput by 30% while supporting reliable downstream analytics.\nModernized legacy enterprise services by migrating monolithic APIs to a microservices architecture using FastAPI, Express.js, and Python, reducing API response time by 35% and improving application scalability.\nDeveloped a Hospital Management System using Java, SQL, and PostgreSQL, automating patient registration, appointment scheduling, billing, and medical record management to reduce administrative effort by 40%.\nBuilt reusable data ingestion and transformation frameworks using Python, PySpark, Kafka, and SQL, automating high-volume data processing and reducing manual processing effort by 35%.\nIntegrated MongoDB, Cassandra, and AWS data services into enterprise analytics platforms, enabling near real-time reporting and reducing report generation time by 45% for business stakeholders.\nImproved enterprise data quality by implementing standardized validation, reconciliation, and transformation logic across PySpark-based ETL workflows, decreasing data inconsistencies by 20% and increasing reporting accuracy.\nDeployed production-ready data engineering solutions through Git, CI/CD, and automated deployment pipelines, shortening release cycles by 25% while improving deployment consistency across multiple client engagements.",
+      "location": "",
+      "achievements": [
+        "Designed scalable ETL pipelines using PySpark, Kafka, Hadoop, Hive, and AWS to process high-volume financial and healthcare datasets, increasing data throughput by 30% while supporting reliable downstream analytics.",
+        "Modernized legacy enterprise services by migrating monolithic APIs to a microservices architecture using FastAPI, Express.js, and Python, reducing API response time by 35% and improving application scalability.",
+        "Developed a Hospital Management System using Java, SQL, and PostgreSQL, automating patient registration, appointment scheduling, billing, and medical record management to reduce administrative effort by 40%.",
+        "Built reusable data ingestion and transformation frameworks using Python, PySpark, Kafka, and SQL, automating high-volume data processing and reducing manual processing effort by 35%.",
+        "Integrated MongoDB, Cassandra, and AWS data services into enterprise analytics platforms, enabling near real-time reporting and reducing report generation time by 45% for business stakeholders.",
+        "Improved enterprise data quality by implementing standardized validation, reconciliation, and transformation logic across PySpark-based ETL workflows, decreasing data inconsistencies by 20% and increasing reporting accuracy.",
+        "Deployed production-ready data engineering solutions through Git, CI/CD, and automated deployment pipelines, shortening release cycles by 25% while improving deployment consistency across multiple client engagements."
+      ],
+      "technologies": [
+        "PySpark",
+        "Kafka",
+        "Hadoop",
+        "Hive",
+        "AWS",
+        "FastAPI",
+        "Express.js",
+        "Python",
+        "Java",
+        "SQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Cassandra",
+        "Git",
+        "CI/CD"
+      ]
+    }
+  ]
+}

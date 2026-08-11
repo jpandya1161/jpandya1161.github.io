@@ -1,0 +1,36 @@
+{
+  "brandName": "JAY PANDYA",
+  "brandTitle": "AI/ML Engineer | Data Engineer",
+  "navLinks": [
+    {
+      "label": "Home",
+      "href": "#hero"
+    },
+    {
+      "label": "About",
+      "href": "#about"
+    },
+    {
+      "label": "Experience",
+      "href": "#experience"
+    },
+    {
+      "label": "Skills",
+      "href": "#skills"
+    }
+  ],
+  "socialLinks": [
+    {
+      "icon": "fab fa-github",
+      "url": "https://github.com/jpandya1161",
+      "label": "GitHub"
+    },
+    {
+      "icon": "fas fa-envelope",
+      "url": "mailto:jaypandya1161@gmail.com",
+      "label": "Email"
+    }
+  ],
+  "copyright": "JAY PANDYA",
+  "year": "2026"
+}

@@ -1,0 +1,252 @@
+{
+  "heading": "Projects",
+  "projects": [
+    {
+      "name": "AI Multilingual Tutor-Bot with NLP",
+      "description": "Developed a multilingual AI tutor using GPT, MarianMT, DistilBERT, RoBERTa, and Python, enabling translation, autocomplete, sentiment, and emotion analysis.\nBenchmarked NLP performance on 3,000 French sentences using SequenceMatcher, achieving an 87.29% similarity score while optimizing inference efficiency.",
+      "technologies": [
+        "GPT",
+        "MarianMT",
+        "DistilBERT",
+        "RoBERTa",
+        "Python",
+        "SequenceMatcher"
+      ],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "ESP32 Biometric Login System",
+      "description": "Built a biometric authentication platform using ESP32, Flask, JWT, Socket.IO, and Python, enabling secure real-time communication between embedded hardware and a web application.\nImplemented JWT-based session management with automated token cleanup and multi-step verification, strengthening authentication security and improving application reliability.",
+      "technologies": [
+        "ESP32",
+        "Flask",
+        "JWT",
+        "Socket.IO",
+        "Python"
+      ],
+      "liveUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "name": "modelcard",
+      "description": "Personal project for exploring modern development practices",
+      "technologies": [
+        "Python"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/modelcard",
+      "githubUrl": "https://github.com/jpandya1161/modelcard"
+    },
+    {
+      "name": "specsage",
+      "description": "Comprehensive project exploring software design patterns",
+      "technologies": [
+        "Python",
+        "HTML",
+        "JavaScript",
+        "CSS",
+        "Makefile",
+        "Dockerfile"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/specsage",
+      "githubUrl": "https://github.com/jpandya1161/specsage"
+    },
+    {
+      "name": "advanced-rag-llm-app",
+      "description": "Full-featured application built as a learning exercise",
+      "technologies": [
+        "Python",
+        "CSS",
+        "JavaScript",
+        "HTML",
+        "Dockerfile",
+        "Makefile"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/advanced-rag-llm-app",
+      "githubUrl": "https://github.com/jpandya1161/advanced-rag-llm-app"
+    },
+    {
+      "name": "ai_soc",
+      "description": "Portfolio project showcasing development capabilities",
+      "technologies": [
+        "Python",
+        "HTML",
+        "Shell",
+        "PowerShell",
+        "Dockerfile",
+        "Zeek",
+        "Batchfile"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/ai_soc",
+      "githubUrl": "https://github.com/jpandya1161/ai_soc"
+    },
+    {
+      "name": "driftguard",
+      "description": "Personal development project using industry best practices",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/driftguard",
+      "githubUrl": "https://github.com/jpandya1161/driftguard"
+    },
+    {
+      "name": "mlops-app",
+      "description": "End-to-end implementation demonstrating technical skills",
+      "technologies": [
+        "HCL",
+        "Python",
+        "Jupyter Notebook",
+        "Dockerfile",
+        "Shell"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/mlops-app",
+      "githubUrl": "https://github.com/jpandya1161/mlops-app"
+    },
+    {
+      "name": "sentinel-triage",
+      "description": "Educational project for mastering software architecture",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/sentinel-triage",
+      "githubUrl": "https://github.com/jpandya1161/sentinel-triage"
+    },
+    {
+      "name": "contextforge",
+      "description": "Educational project for mastering software architecture",
+      "technologies": [
+        "TypeScript",
+        "JavaScript",
+        "Dockerfile",
+        "CSS"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/contextforge",
+      "githubUrl": "https://github.com/jpandya1161/contextforge"
+    },
+    {
+      "name": "agentops-sentinel",
+      "description": "Practice application demonstrating full-stack development skills",
+      "technologies": [
+        "Python",
+        "HTML",
+        "Dockerfile"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/agentops-sentinel",
+      "githubUrl": "https://github.com/jpandya1161/agentops-sentinel"
+    },
+    {
+      "name": "driftguard-llm",
+      "description": "Full-featured application built as a learning exercise",
+      "technologies": [
+        "Python",
+        "Dockerfile"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/driftguard-llm",
+      "githubUrl": "https://github.com/jpandya1161/driftguard-llm"
+    },
+    {
+      "name": "Wells-Fargo-SE-JPA-project",
+      "description": "A Java-based backend service utilizing Spring Data JPA and Hibernate to model complex financial relationships. This project implements a hierarchical data structure—Advisors, Clients, Portfolios, and Securities—ensuring data integrity through relational mapping, custom constraints, and modern Java Time APIs.",
+      "technologies": [
+        "Java"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/Wells-Fargo-SE-JPA-project",
+      "githubUrl": "https://github.com/jpandya1161/Wells-Fargo-SE-JPA-project"
+    },
+    {
+      "name": "esp32-biometric-login",
+      "description": "A secure facial recognition login system using ESP32-CAM and Edge Impulse ML model, with real-time authentication via Flask, Socket.IO, and JWT-based token verification.",
+      "technologies": [
+        "C",
+        "C++",
+        "Assembly",
+        "CMake",
+        "CSS",
+        "Python",
+        "HTML",
+        "JavaScript",
+        "Shell"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/esp32-biometric-login",
+      "githubUrl": "https://github.com/jpandya1161/esp32-biometric-login"
+    },
+    {
+      "name": "Tutor-Bot",
+      "description": "Making a language tutoring chatbot.",
+      "technologies": [
+        "Jupyter Notebook",
+        "Python",
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/Tutor-Bot",
+      "githubUrl": "https://github.com/jpandya1161/Tutor-Bot"
+    },
+    {
+      "name": "Text-Classification",
+      "description": "Here we are given a Text dataset which contains Ham and Spam emails. Now we must make different classifier models to evaluate that on getting a new dataset, machine should be able to decide if that email is ham or spam. Also, we are comparing evaluation metrics for different models for the same problem, given different new datasets.",
+      "technologies": [
+        "Jupyter Notebook"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/Text-Classification",
+      "githubUrl": "https://github.com/jpandya1161/Text-Classification"
+    },
+    {
+      "name": "Clause-Resolution-Principle",
+      "description": "Theorem prover for a clause logic using the resolution principle.",
+      "technologies": [
+        "Python"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/Clause-Resolution-Principle",
+      "githubUrl": "https://github.com/jpandya1161/Clause-Resolution-Principle"
+    },
+    {
+      "name": "Virtual-Assistent",
+      "description": "Users can ask their assistants questions, control home automation devices and media playback via voice, and manage other basic tasks such as email, to-do lists, and calendars with verbal commands.",
+      "technologies": [
+        "Python"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/Virtual-Assistent",
+      "githubUrl": "https://github.com/jpandya1161/Virtual-Assistent"
+    },
+    {
+      "name": "OMR-checker-Application",
+      "description": "The main objective of the app was to incorporate the features that enable a teacher to check student OMR sheets. This app aimed to provide the admin with the functionality of login, signup, profile, creating a test and checking the student answers according to the correct answers.",
+      "technologies": [
+        "Java"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/OMR-checker-Application",
+      "githubUrl": "https://github.com/jpandya1161/OMR-checker-Application"
+    },
+    {
+      "name": "Multi-DataStructure-Implementation",
+      "description": "Here I implement the multi data structure application. ",
+      "technologies": [
+        "Java"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/Multi-DataStructure-Implementation",
+      "githubUrl": "https://github.com/jpandya1161/Multi-DataStructure-Implementation"
+    },
+    {
+      "name": "Mood-Bot",
+      "description": "This project made with Rasa which is an open-source bot-building framework.",
+      "technologies": [
+        "Python"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/Mood-Bot",
+      "githubUrl": "https://github.com/jpandya1161/Mood-Bot"
+    },
+    {
+      "name": "USA-Bot",
+      "description": "This project is made to observe the general use of BotPress application.",
+      "technologies": [
+        "JavaScript"
+      ],
+      "liveUrl": "https://github.com/jpandya1161/USA-Bot",
+      "githubUrl": "https://github.com/jpandya1161/USA-Bot"
+    }
+  ]
+}
