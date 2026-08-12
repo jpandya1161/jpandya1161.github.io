@@ -332,26 +332,32 @@
     const heading = document.querySelector('#skills .section-title');
     if (heading) heading.textContent = data.heading || 'SKILLS';
 
-    const grid = document.querySelector('.skills-grid-modern');
-    if (!grid || !data.categories) return;
+    const caption = document.querySelector('.skills-caption');
+    if (caption) caption.textContent = data.caption || '';
 
-    grid.innerHTML = data.categories
-      .map((cat) => {
-        const isHighlight = cat.isHighlight ? ' highlight-box' : '';
-        const tagsHtml = (cat.items || [])
-          .map(
-            (item) =>
-              `<span class="tag"><i class="${item.icon || 'fas fa-code'}"></i> ${escapeHtml(item.name)}</span>`
-          )
+    const list = document.querySelector('.skill-stages');
+    if (!list || !data.stages) return;
+
+    // Stages are a real sequence - the path data takes from source to production -
+    // so they are numbered and rendered as an ordered list rather than a bag of boxes.
+    list.innerHTML = data.stages
+      .map((stage, i) => {
+        const items = stage.items || [];
+        const chipsHtml = items
+          .map((item) => `<li class="skill-chip">${escapeHtml(item)}</li>`)
           .join('');
         return `
-        <div class="skill-box${isHighlight}">
-          <div class="skill-box-header">
-            <i class="${cat.icon || 'fas fa-code'} skill-icon-large"></i>
-            <h3 class="skill-box-title">${escapeHtml(cat.name)}</h3>
+        <li class="skill-stage" style="--stage-index:${i}">
+          <div class="stage-marker" aria-hidden="true">${escapeHtml(stage.id || String(i + 1).padStart(2, '0'))}</div>
+          <div class="stage-body">
+            <h3 class="stage-name">
+              <i class="${stage.icon || 'fas fa-code'}" aria-hidden="true"></i>
+              <span>${escapeHtml(stage.name)}</span>
+              <span class="stage-count">${items.length}</span>
+            </h3>
+            <ul class="stage-items">${chipsHtml}</ul>
           </div>
-          <div class="tech-tags">${tagsHtml}</div>
-        </div>`;
+        </li>`;
       })
       .join('');
   }
@@ -537,7 +543,7 @@
       { threshold: 0.1 }
     );
 
-    document.querySelectorAll('.section, .timeline-item, .skill-box').forEach((el) => {
+    document.querySelectorAll('.section, .timeline-item, .skill-stage').forEach((el) => {
       observer.observe(el);
     });
   }

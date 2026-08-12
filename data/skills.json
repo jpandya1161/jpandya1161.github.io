@@ -1,200 +1,86 @@
 {
   "heading": "SKILLS",
-  "categories": [
+  "caption": "The stack, in the order data moves through it.",
+  "stages": [
     {
-      "name": "Languages",
+      "id": "01",
+      "name": "Language",
       "icon": "fas fa-code",
       "items": [
-        {
-          "name": "Python",
-          "icon": "fab fa-python"
-        },
-        {
-          "name": "Java",
-          "icon": "fab fa-java"
-        },
-        {
-          "name": "SQL",
-          "icon": "fas fa-database"
-        },
-        {
-          "name": "JavaScript",
-          "icon": "fab fa-js"
-        }
+        "Python",
+        "Java",
+        "SQL",
+        "JavaScript"
       ]
     },
     {
-      "name": "Frameworks & Libraries",
-      "icon": "fas fa-layer-group",
+      "id": "02",
+      "name": "Ingest & Transform",
+      "icon": "fas fa-diagram-project",
       "items": [
-        {
-          "name": "FastAPI",
-          "icon": "fab fa-python"
-        },
-        {
-          "name": "Flask",
-          "icon": "fab fa-python"
-        },
-        {
-          "name": "Express.js",
-          "icon": "fas fa-server"
-        },
-        {
-          "name": "Next.js",
-          "icon": "fas fa-server"
-        },
-        {
-          "name": "PySpark",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Apache Kafka",
-          "icon": "fas fa-stream"
-        },
-        {
-          "name": "Apache Hadoop",
-          "icon": "fas fa-microchip"
-        },
-        {
-          "name": "Apache Hive",
-          "icon": "fas fa-microchip"
-        }
+        "PySpark",
+        "Apache Kafka",
+        "Apache Hadoop",
+        "Apache Hive",
+        "ETL Pipelines",
+        "Data Integration",
+        "Data Processing",
+        "Data Validation"
       ]
     },
     {
-      "name": "Tools & Platforms",
-      "icon": "fas fa-tools",
+      "id": "03",
+      "name": "Store",
+      "icon": "fas fa-database",
       "items": [
-        {
-          "name": "Neo4j",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "PostgreSQL",
-          "icon": "fas fa-database"
-        },
-        {
-          "name": "MongoDB",
-          "icon": "fas fa-leaf"
-        },
-        {
-          "name": "Cassandra",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Firebase",
-          "icon": "fas fa-fire"
-        },
-        {
-          "name": "Amazon Web Services (AWS)",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Git",
-          "icon": "fab fa-git-alt"
-        },
-        {
-          "name": "CI/CD",
-          "icon": "fas fa-sync-alt"
-        }
+        "PostgreSQL",
+        "Neo4j",
+        "MongoDB",
+        "Cassandra",
+        "Firebase"
       ]
     },
     {
-      "name": "Technical Skills",
-      "icon": "fas fa-cogs",
+      "id": "04",
+      "name": "Model & Reason",
+      "icon": "fas fa-brain",
       "items": [
-        {
-          "name": "Generative AI",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Large Language Models (LLMs)",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Retrieval-Augmented Generation (RAG)",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Natural Language Processing (NLP)",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "BERT",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Hugging Face Transformers",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Prompt Engineering",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Model Fine-Tuning",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "Model Evaluation",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "AI Model Optimization",
-          "icon": "fas fa-robot"
-        },
-        {
-          "name": "ETL Pipelines",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "Data Processing",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Data Integration",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Data Validation",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "Model Deployment",
-          "icon": "fas fa-circle"
-        },
-        {
-          "name": "Model Versioning",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Inference Optimization",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Agile (Scrum)",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Analytical Problem-Solving",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Cross-Functional Collaboration",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Stakeholder Communication",
-          "icon": "fas fa-chart-line"
-        },
-        {
-          "name": "Technical Documentation",
-          "icon": "fas fa-microchip"
-        },
-        {
-          "name": "Continuous Learning",
-          "icon": "fas fa-chart-line"
-        }
+        "Generative AI",
+        "Large Language Models (LLMs)",
+        "Retrieval-Augmented Generation (RAG)",
+        "Natural Language Processing (NLP)",
+        "BERT",
+        "Hugging Face Transformers",
+        "Prompt Engineering",
+        "Model Fine-Tuning",
+        "Model Evaluation",
+        "AI Model Optimization"
+      ]
+    },
+    {
+      "id": "05",
+      "name": "Serve",
+      "icon": "fas fa-bolt",
+      "items": [
+        "FastAPI",
+        "Flask",
+        "Express.js",
+        "Next.js",
+        "Model Deployment",
+        "Inference Optimization"
+      ]
+    },
+    {
+      "id": "06",
+      "name": "Operate",
+      "icon": "fas fa-arrows-rotate",
+      "items": [
+        "Amazon Web Services (AWS)",
+        "Git",
+        "CI/CD",
+        "Model Versioning",
+        "Agile (Scrum)",
+        "Technical Documentation"
       ]
     }
   ]
