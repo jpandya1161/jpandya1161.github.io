@@ -6,10 +6,10 @@
       "highlights": []
     },
     {
-      "text": "Experienced ai/ml engineer | data engineer with {yearsExp} of hands-on experience across {industries}.",
+      "text": "Experienced AI/ML Engineer | Data Engineer with {yearsExp} of hands-on experience across {industries}.",
       "highlights": [
         {
-          "text": "2+ years",
+          "text": "4+ years",
           "color": "yellow",
           "key": "yearsExp"
         },
