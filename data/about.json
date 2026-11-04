@@ -1,40 +1,46 @@
+
 {
-  "heading": "ABOUT",
+  "heading": "TECHNICAL EXPERTISE",
   "paragraphs": [
     {
-      "text": "AI/ML Engineer with 4+ years of experience developing enterprise AI solutions, scalable machine learning systems, and modern data platforms for large-scale business environments. Specialized in Generative AI, LLMs, RAG architectures, NLP, and distributed data processing using Python, PySpark, AWS, Kafka, and Hugging Face Transformers. Recognized for building secure, high-performance AI applications that improve operational efficiency, strengthen intelligent automation, and transform complex data into actionable business insights.",
+      "text": "Computer Science professional with 4+ years of experience working with data analytics, business intelligence, software development, and enterprise data solutions. Skilled in SQL, Python, Power BI, Tableau, Excel, database management, and cloud technologies, with experience in data transformation, ETL workflows, data validation, reporting automation, and dashboard development. Focused on building reliable, scalable, and efficient technical solutions that improve data quality, streamline business processes, and support informed decision-making.",
       "highlights": []
     },
     {
-      "text": "Experienced AI/ML Engineer | Data Engineer with {yearsExp} of hands-on experience across {industries}.",
+      "text": "Experienced in {expertise1}, {expertise2}, and {expertise3}, with a strong foundation in translating technical challenges into practical business solutions.",
       "highlights": [
         {
-          "text": "4+ years",
+          "text": "data analytics and business intelligence",
           "color": "yellow",
-          "key": "yearsExp"
+          "key": "expertise1"
         },
         {
-          "text": "healthcare, security, data analytics",
+          "text": "database management and data engineering",
           "color": "pink",
-          "key": "industries"
+          "key": "expertise2"
+        },
+        {
+          "text": "software development and cloud technologies",
+          "color": "cyan",
+          "key": "expertise3"
         }
       ]
     },
     {
-      "text": "I bring a unique blend of {blend1}, {blend2}, and a genuine enthusiasm for {blend3}.",
+      "text": "I bring together {blend1}, {blend2}, and a passion for {blend3}.",
       "highlights": [
         {
-          "text": "technical expertise",
+          "text": "analytical problem-solving",
           "color": "yellow",
           "key": "blend1"
         },
         {
-          "text": "collaborative leadership",
+          "text": "cross-functional collaboration",
           "color": "green",
           "key": "blend2"
         },
         {
-          "text": "building impactful solutions",
+          "text": "building impactful, data-driven solutions",
           "color": "cyan",
           "key": "blend3"
         }
