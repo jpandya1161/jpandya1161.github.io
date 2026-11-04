@@ -1,21 +1,24 @@
+
 {
   "heading": "SKILLS",
-  "caption": "The stack, in the order data moves through it.",
+  "caption": "Technologies and tools I use to analyze data, build applications, and develop reliable technical solutions.",
   "stages": [
     {
       "id": "01",
-      "name": "Language",
+      "name": "Programming & Development",
       "icon": "fas fa-code",
       "items": [
         "Python",
         "Java",
         "SQL",
-        "JavaScript"
+        "JavaScript",
+        "Pandas",
+        "NumPy"
       ]
     },
     {
       "id": "02",
-      "name": "Ingest & Transform",
+      "name": "Data Engineering & Processing",
       "icon": "fas fa-diagram-project",
       "items": [
         "PySpark",
@@ -24,64 +27,73 @@
         "Apache Hive",
         "ETL Pipelines",
         "Data Integration",
-        "Data Processing",
-        "Data Validation"
+        "Data Transformation",
+        "Data Validation",
+        "Data Reconciliation"
       ]
     },
     {
       "id": "03",
-      "name": "Store",
+      "name": "Databases & Data Management",
       "icon": "fas fa-database",
       "items": [
         "PostgreSQL",
-        "Neo4j",
+        "SQL Server",
+        "MySQL",
         "MongoDB",
+        "Neo4j",
         "Cassandra",
-        "Firebase"
+        "Firebase",
+        "SQL Query Optimization",
+        "Database Design"
       ]
     },
     {
       "id": "04",
-      "name": "Model & Reason",
-      "icon": "fas fa-brain",
+      "name": "Data Analytics & Business Intelligence",
+      "icon": "fas fa-chart-line",
       "items": [
-        "Generative AI",
-        "Large Language Models (LLMs)",
-        "Retrieval-Augmented Generation (RAG)",
-        "Natural Language Processing (NLP)",
-        "BERT",
-        "Hugging Face Transformers",
-        "Prompt Engineering",
-        "Model Fine-Tuning",
-        "Model Evaluation",
-        "AI Model Optimization"
+        "Power BI",
+        "Tableau",
+        "Advanced Excel",
+        "Data Visualization",
+        "Dashboard Development",
+        "KPI Reporting",
+        "DAX",
+        "Power Query",
+        "Exploratory Data Analysis",
+        "Reporting Automation",
+        "Business Reporting"
       ]
     },
     {
       "id": "05",
-      "name": "Serve",
-      "icon": "fas fa-bolt",
+      "name": "Application Development & APIs",
+      "icon": "fas fa-laptop-code",
       "items": [
         "FastAPI",
         "Flask",
         "Express.js",
         "Next.js",
         "REST APIs",
-        "Model Deployment",
-        "Inference Optimization"
+        "Backend Development",
+        "API Integration",
+        "Web Application Development"
       ]
     },
     {
       "id": "06",
-      "name": "Operate",
-      "icon": "fas fa-arrows-rotate",
+      "name": "Cloud, DevOps & Collaboration",
+      "icon": "fas fa-cloud",
       "items": [
         "Amazon Web Services (AWS)",
+        "Docker",
         "Git",
         "CI/CD",
-        "Model Versioning",
         "Agile (Scrum)",
-        "Technical Documentation"
+        "Jira",
+        "Technical Documentation",
+        "Cross-Functional Collaboration"
       ]
     }
   ]
