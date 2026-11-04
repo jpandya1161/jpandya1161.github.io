@@ -1,3 +1,4 @@
+
 {
   "logo": "JP",
   "items": [
@@ -6,16 +7,16 @@
       "href": "#hero"
     },
     {
-      "label": "About",
+      "label": "Technical Expertise",
       "href": "#about"
-    },
-    {
-      "label": "Journey",
-      "href": "#experience"
     },
     {
       "label": "Skills",
       "href": "#skills"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
     },
     {
       "label": "Contact",
