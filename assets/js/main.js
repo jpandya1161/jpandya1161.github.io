@@ -16,31 +16,31 @@
     'data/navigation.json',
     'data/hero.json',
     'data/about.json',
-    'data/experience.json',
     'data/skills.json',
     'data/projects.json',
     'data/education.json',
     'data/contact.json',
     'data/footer.json',
   ];
-
+  
   async function loadAllData() {
     const responses = await Promise.all(
       DATA_FILES.map((url) => fetch(url).then((r) => r.json()))
     );
+
     return {
       siteConfig: responses[0],
       navigation: responses[1],
       hero: responses[2],
       about: responses[3],
-      experience: responses[4],
-      skills: responses[5],
-      projects: responses[6],
-      education: responses[7],
-      contact: responses[8],
-      footer: responses[9],
+      skills: responses[4],
+      projects: responses[5],
+      education: responses[6],
+      contact: responses[7],
+      footer: responses[8],
     };
   }
+
 
   // ======================================================================
   // RENDERING FUNCTIONS
@@ -222,17 +222,6 @@
       lines.push({ type: 'output', text: '' });
     }
 
-    // Experience
-    if (cmds.experience && cmds.experience.length) {
-      lines.push({ type: 'prompt-cmd', prompt: '~$', cmd: 'experience' });
-      lines.push({ type: 'highlight', text: 'Professional Experience' });
-      cmds.experience.forEach((exp) => {
-        lines.push({ type: 'command', text: `  ${exp.title} @ ${exp.company}` });
-        lines.push({ type: 'output', text: `  ${exp.period} | ${exp.location}` });
-      });
-      lines.push({ type: 'output', text: '' });
-    }
-
     // Contact
     if (cmds.contact) {
       lines.push({ type: 'prompt-cmd', prompt: '~$', cmd: 'contact' });
@@ -286,44 +275,6 @@
           });
         }
         return `<p class="text">${text}</p>`;
-      })
-      .join('');
-  }
-
-  function renderExperience(data) {
-    const heading = document.querySelector('#experience .section-title-center');
-    if (heading) heading.textContent = data.heading || 'My Journey';
-
-    const timelineList = document.querySelector('.timeline-list');
-    if (!timelineList || !data.positions) return;
-
-    timelineList.innerHTML = data.positions
-      .map((pos) => {
-        // A relative url() inside a custom property resolves against the
-        // stylesheet, not the document, so absolutise it against the page.
-        const logoUrl = pos.logo ? new URL(pos.logo, document.baseURI).href : '';
-        const logoHtml = logoUrl
-          ? `<span class="company-logo" style="--company-logo:url('${escapeHtml(logoUrl)}')" role="img" aria-label="${escapeHtml(pos.company)} logo"></span>`
-          : '';
-        const locationHtml = (pos.location || '').trim()
-          ? `<p class="timeline-location"><i class="fas fa-map-marker-alt"></i> ${escapeHtml(pos.location)}</p>`
-          : '';
-        return `
-      <div class="timeline-item-flat">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content-flat">
-          <div class="timeline-heading">
-            ${logoHtml}
-            <div class="timeline-heading-text">
-              <h4 class="timeline-title">${escapeHtml(pos.title)}</h4>
-              <p class="timeline-company">${escapeHtml(pos.company)}</p>
-            </div>
-          </div>
-          <p class="timeline-date">${escapeHtml(pos.startDate)} - ${escapeHtml(pos.endDate || 'Present')}</p>
-          <p class="timeline-description">${escapeHtml(pos.description)}</p>
-          ${locationHtml}
-        </div>
-      </div>`;
       })
       .join('');
   }
@@ -543,7 +494,7 @@
       { threshold: 0.1 }
     );
 
-    document.querySelectorAll('.section, .timeline-item, .skill-stage').forEach((el) => {
+    document.querySelectorAll('.section, .skill-stage').forEach((el) => {
       observer.observe(el);
     });
   }
@@ -852,7 +803,6 @@
       renderNavigation(data.navigation);
       renderHero(data.hero);
       renderAbout(data.about);
-      renderExperience(data.experience);
       renderSkills(data.skills);
       renderProjects(data.projects);
       renderEducation(data.education);
