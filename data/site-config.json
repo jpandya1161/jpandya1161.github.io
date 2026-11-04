@@ -1,12 +1,13 @@
+
 {
-  "siteName": "JAY PANDYA | AI/ML Engineer | Data Engineer",
+  "siteName": "JAY PANDYA | Technical Portfolio",
   "theme": "light",
   "loaderInitials": [
     "J",
     "P"
   ],
-  "metaDescription": "JAY PANDYA — AI/ML Engineer | Data Engineer. Portfolio showcasing professional experience, skills, and projects.",
-  "metaKeywords": "JAY PANDYA, AI/ML Engineer | Data Engineer, Portfolio",
+  "metaDescription": "Explore the technical portfolio of Jay Pandya, featuring projects and expertise in data analytics, business intelligence, software development, databases, cloud technologies, and data engineering.",
+  "metaKeywords": "Jay Pandya, Technical Portfolio, Data Analytics, Business Intelligence, Software Development, Python, SQL, Power BI, Tableau, Data Engineering, Cloud Technologies",
   "progressCheckpoints": [
     {
       "id": "hero",
@@ -14,15 +15,15 @@
     },
     {
       "id": "about",
-      "label": "About"
-    },
-    {
-      "id": "experience",
-      "label": "Journey"
+      "label": "Technical Expertise"
     },
     {
       "id": "skills",
       "label": "Skills"
+    },
+    {
+      "id": "projects",
+      "label": "Projects"
     },
     {
       "id": "contact",
