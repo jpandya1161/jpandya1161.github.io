@@ -2163,22 +2163,3 @@ body[data-theme="dark"] .highlight-green {
   font-size: 0.8rem;
   opacity: 0.5;
 }
-
-/* ---------- Space After Section Content ---------- */
-
-#about,
-#skills,
-#projects,
-.education-languages-section {
-    padding-bottom: 90px;
-}
-
-/* Mobile spacing */
-@media (max-width: 768px) {
-    #about,
-    #skills,
-    #projects,
-    .education-languages-section {
-        padding-bottom: 50px;
-    }
-}
