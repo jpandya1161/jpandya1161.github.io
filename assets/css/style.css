@@ -2164,23 +2164,21 @@ body[data-theme="dark"] .highlight-green {
   opacity: 0.5;
 }
 
-/* ---------- Improved Section Spacing ---------- */
+/* ---------- Space After Section Content ---------- */
 
-/* Add space before each major section */
-.container > #skills,
-.container > #projects,
-.container > .education-languages-section,
-.container > #contact {
-    margin-top: 0;
-    padding-top: 80px;
+#about,
+#skills,
+#projects,
+.education-languages-section {
+    padding-bottom: 90px;
 }
 
-/* Smaller spacing for mobile devices */
+/* Mobile spacing */
 @media (max-width: 768px) {
-    .container > #skills,
-    .container > #projects,
-    .container > .education-languages-section,
-    .container > #contact {
-        padding-top: 48px;
+    #about,
+    #skills,
+    #projects,
+    .education-languages-section {
+        padding-bottom: 50px;
     }
 }
