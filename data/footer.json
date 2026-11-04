@@ -1,22 +1,27 @@
+
 {
   "brandName": "JAY PANDYA",
-  "brandTitle": "AI/ML Engineer | Data Engineer",
+  "brandTitle": "Data Analytics | Business Intelligence | Software Development",
   "navLinks": [
     {
       "label": "Home",
       "href": "#hero"
     },
     {
-      "label": "About",
+      "label": "Technical Expertise",
       "href": "#about"
-    },
-    {
-      "label": "Experience",
-      "href": "#experience"
     },
     {
       "label": "Skills",
       "href": "#skills"
+    },
+    {
+      "label": "Projects",
+      "href": "#projects"
+    },
+    {
+      "label": "Contact",
+      "href": "#contact"
     }
   ],
   "socialLinks": [
