@@ -1,8 +1,9 @@
+
 {
   "greeting": "Hi there!",
   "name": "JAY PANDYA",
-  "description": "Based in Texas, USA. AI/ML Engineer with 4+ years of experience developing enterprise AI solutions, scalable machine learning systems, and modern data platforms for large-scale business environments.",
-  "tagline": "AI/ML Engineer | Data Engineer",
+  "description": "Based in Texas, USA. Computer Science professional with experience in data analytics, business intelligence, software development, and enterprise data solutions. Skilled in transforming complex data into actionable insights, developing reliable applications, and building efficient data-driven solutions.",
+  "tagline": "Data Analytics | Business Intelligence | Software Development",
   "avatarUrl": "assets/img/profile.webp",
   "socialLinks": [
     {
@@ -34,30 +35,30 @@
       "label": "JavaScript"
     },
     {
-      "icon": "fab fa-python",
-      "label": "FastAPI"
+      "icon": "fas fa-chart-bar",
+      "label": "Power BI"
     },
     {
-      "icon": "fab fa-python",
-      "label": "Flask"
+      "icon": "fas fa-chart-line",
+      "label": "Tableau"
     },
     {
-      "icon": "fas fa-server",
-      "label": "Express.js"
+      "icon": "fas fa-file-excel",
+      "label": "Excel"
     },
     {
-      "icon": "fas fa-server",
-      "label": "Next.js"
+      "icon": "fab fa-aws",
+      "label": "AWS"
     }
   ],
   "terminalCommands": {
     "about": {
-      "title": "About Me",
-      "content": "AI/ML Engineer | Data Engineer with 4+ years of experience building enterprise AI systems and data platforms.",
+      "title": "Technical Profile",
+      "content": "Computer Science professional working across data analytics, business intelligence, software development, and data engineering.",
       "highlights": [
-        "Working with Python",
-        "Working with Java",
-        "Working with SQL"
+        "Building data-driven solutions",
+        "Developing applications and data workflows",
+        "Turning complex data into actionable insights"
       ]
     },
     "skills": [
@@ -65,6 +66,11 @@
       "Java",
       "SQL",
       "JavaScript",
+      "Power BI",
+      "Tableau",
+      "Advanced Excel",
+      "Pandas",
+      "NumPy",
       "FastAPI",
       "Flask",
       "Express.js",
@@ -73,24 +79,14 @@
       "Apache Kafka",
       "Apache Hadoop",
       "Apache Hive",
-      "Neo4j",
       "PostgreSQL",
+      "SQL Server",
       "MongoDB",
-      "Cassandra"
-    ],
-    "experience": [
-      {
-        "company": "Cisco Systems, USA",
-        "title": "AI/ML Engineer",
-        "period": "Feb 2026 - Present",
-        "location": ""
-      },
-      {
-        "company": "Hexaware Technologies, India",
-        "title": "Data Engineer - AI/ML Systems",
-        "period": "Jul 2021 - Dec 2023",
-        "location": ""
-      }
+      "Neo4j",
+      "Cassandra",
+      "AWS",
+      "Docker",
+      "Git"
     ],
     "education": [
       {
@@ -114,9 +110,9 @@
   "terminalLines": [
     "$ whoami",
     "JAY PANDYA",
-    "$ cat role.txt",
-    "AI/ML Engineer | Data Engineer",
+    "$ cat profile.txt",
+    "Data Analytics | Business Intelligence | Software Development",
     "$ ls skills/",
-    "Python  Java  SQL  JavaScript  FastAPI"
+    "Python  SQL  Java  Power BI  Tableau  JavaScript"
   ]
 }
