@@ -2163,3 +2163,15 @@ body[data-theme="dark"] .highlight-green {
   font-size: 0.8rem;
   opacity: 0.5;
 }
+
+
+/* ---------- Section Spacing ---------- */
+.container > .section + .section {
+    margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+    .container > .section + .section {
+        margin-top: 40px;
+    }
+}
